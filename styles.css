@@ -61,7 +61,7 @@ body
 .about
 {
 	padding-top: 70px;
-	padding-bottom: 50px;
+	padding-bottom: 40px;
 }
 .skills
 {
@@ -80,15 +80,15 @@ body
 }
 .courses
 {
-	padding-top: 70px;
-	padding-bottom: 50px;
+	padding-top: 80px;
+	padding-bottom: 40px;
 	line-height: 40px;
 }
 .image img
 {
 	vertical-align: center;
-	height: 250px;
-	width: 250px;
+	height: 80%;
+	width: 80%;
 	border: 2px solid #000;
 	margin-top: 30px;
 	margin-bottom: 40px;
@@ -102,10 +102,10 @@ body
 #footer
 {
 	padding-top: 70px;
-	height: 60vh;
 	background-image: url(images/bg2.jpg);
 	background-position: center center;
 	background-size: 100%;
+	height: 100%;
 	background-attachment: fixed;
 	font-size: 18px;
 	color: #fff;
