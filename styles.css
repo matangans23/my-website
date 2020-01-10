@@ -1,0 +1,112 @@
+body 
+{
+	margin: 0;
+	padding: 0;
+	font-family: "Times New Roman", Times, serif;
+}
+#header
+{
+	height: 100vh;
+	background-image: url(images/background.png);
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+.user-box
+{
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	position: absolute;
+}
+.user-box img
+{
+	border-radius: 50%;
+	width: 250px;
+	border: 2px solid #6caed5;
+}
+.user-box h1 {
+	font-size: 84px;
+	color: #fffff0;
+	background-color: rgba(0,0,0,.5);
+	margin: 10px;
+	font-weight: bold;
+	font-family: "Times New Roman", Times, serif;
+}
+.nav-bar
+{
+	top: 0;
+	position: sticky;
+	z-index: 2;
+}
+.navbar
+{
+	background-color: #ffffff;
+	border-bottom: 1px solid;
+}
+.navbar-brand
+{
+	color: #000;
+	font-weight: bold;
+}
+.navbar-nav
+{
+	float: right;
+	text-align: right;
+}
+.nav-link
+{
+	color: #000;
+}
+.about
+{
+	padding-top: 70px;
+	padding-bottom: 50px;
+}
+.skills
+{
+	padding-top: 70px;
+	padding-bottom: 50px;
+}
+.progress
+{
+	border-radius: 16px !important;
+	margin-bottom: 20px;
+}
+.progress-bar
+{
+	position: relative;
+	border-radius: 16px;
+}
+.courses
+{
+	padding-top: 70px;
+	padding-bottom: 50px;
+	line-height: 40px;
+}
+.image img
+{
+	vertical-align: center;
+	height: 250px;
+	width: 250px;
+	border: 2px solid #000;
+	margin-top: 30px;
+	margin-bottom: 40px;
+}
+.interests
+{
+	padding-top: 70px;
+	padding-bottom: 50px;
+	line-height: 40px;
+}
+#footer
+{
+	padding-top: 70px;
+	height: 60vh;
+	background-image: url(images/bg2.jpg);
+	background-position: center center;
+	background-size: 100%;
+	background-attachment: fixed;
+	font-size: 18px;
+	color: #fff;
+}
