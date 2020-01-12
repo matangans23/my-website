@@ -8,8 +8,8 @@ body
 {
 	height: 100vh;
 	background-image: url(images/background.png);
-	background-position: center;
-	background-size: cover;
+	background-position: center center;
+	background-size: 100%;
 	background-attachment: fixed;
 }
 .user-box
@@ -22,7 +22,7 @@ body
 .user-box img
 {
 	border-radius: 50%;
-	width: 250px;
+	width: 80%;
 	border: 2px solid #6caed5;
 }
 .user-box h1 {
@@ -38,6 +38,7 @@ body
 	top: 0;
 	position: sticky;
 	z-index: 2;
+	min-height: 50px;
 }
 .navbar
 {
@@ -61,7 +62,9 @@ body
 .about
 {
 	padding-top: 70px;
-	padding-bottom: 40px;
+	padding-bottom: 30px;
+	line-height: 35px;
+	font-size: 20px;
 }
 .skills
 {
@@ -71,7 +74,7 @@ body
 .progress
 {
 	border-radius: 16px !important;
-	margin-bottom: 8px;
+	margin-bottom: 14px;
 	width: 70%;
 }
 .progress-bar
@@ -84,19 +87,21 @@ body
 	padding-top: 80px;
 	padding-bottom: 40px;
 	line-height: 30px;
+	font-size: calc(12px + 1vw);
 }
 .image img
 {
-	height: 80%;
+	height: 90%;
 	width: 80%;
-	padding-top: 30px;
-	padding-bottom: 40px;
+	vertical-align: center;
+	padding-bottom: 100px;
 }
 .interests
 {
 	padding-top: 70px;
 	padding-bottom: 50px;
 	line-height: 40px;
+	font-size: calc(10px + 1vw);
 }
 #footer
 {
